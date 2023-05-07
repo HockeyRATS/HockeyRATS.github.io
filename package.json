@@ -15,6 +15,7 @@
     "clean": "gatsby clean",
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix",
+    "prettier-format": "prettier --config .prettierrc --write src/",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
