@@ -71,7 +71,7 @@ const docLinks = [
     text: "GraphQL Typegen Documentation",
     url: "https://www.gatsbyjs.com/docs/how-to/local-development/graphql-typegen/",
     color: "#8954A8",
-  }
+  },
 ]
 
 const badgeStyle = {
@@ -142,14 +142,16 @@ const IndexPage: React.FC<PageProps> = () => {
       <h1 style={headingStyles}>
         Congratulations
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
+        <span style={headingAccentStyles}>
+          — you just made a Gatsby site! 🎉🎉🎉
+        </span>
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.tsx</code> to see this page
-        update in real-time. 😎
+        Edit <code style={codeStyles}>src/pages/index.tsx</code> to see this
+        page update in real-time. 😎
       </p>
       <ul style={doclistStyles}>
-        {docLinks.map(doc => (
+        {docLinks.map((doc) => (
           <li key={doc.url} style={docLinkStyle}>
             <a
               style={linkStyle}
@@ -161,7 +163,7 @@ const IndexPage: React.FC<PageProps> = () => {
         ))}
       </ul>
       <ul style={listStyles}>
-        {links.map(link => (
+        {links.map((link) => (
           <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
             <span>
               <a
