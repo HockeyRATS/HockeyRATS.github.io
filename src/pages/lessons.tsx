@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 
 const LessonsPage = () => {
   return (
@@ -19,8 +20,8 @@ const LessonsPage = () => {
         >
           Ice Land Rink
         </a>{" "}
-        in Hamilton Township, NJ. Please contact me regarding availability or if
-        lessons at other facilities are desired.
+        in Hamilton Township, NJ. Please <Link to="/contact">contact me</Link>{" "}
+        regarding availability or if lessons at other facilities are desired.
       </p>
 
       <h1>Sample Lessons</h1>
