@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 import type { HeadFC, PageProps } from "gatsby"
 
 /*
@@ -213,6 +214,8 @@ const IndexPage: React.FC<PageProps> = () => {
       <hr />
 
       <p>Coach Wagner is currently accepting new players.</p>
+
+      <Link to="/lessons">View Lessons</Link>
     </main>
   )
 }
