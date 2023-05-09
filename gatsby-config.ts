@@ -19,13 +19,13 @@ const config: GatsbyConfig = {
       },
     },
     {
-      resolve: "gatsby-plugin-google-fonts",
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          "Roboto Slab\:400,700",
-          "sans-serif"
+          `Roboto Slab\:400,700`,
+          `sans-serif`
         ],
-        display: "swap"
+        display: `swap`
       }
     }
   ],
