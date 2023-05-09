@@ -18,6 +18,16 @@ const config: GatsbyConfig = {
         icon: "src/images/icon.png",
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Roboto Slab\:400,700`,
+          `sans-serif`
+        ],
+        display: `swap`
+      }
+    }
   ],
 }
 
