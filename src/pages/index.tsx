@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import type { HeadFC, PageProps } from "gatsby"
+import Layout from "../components/layout"
 
 /*
 const pageStyles = {
@@ -199,24 +200,26 @@ export const Head: HeadFC = () => <title>Home Page</title>
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <main>
-      <p>
-        Joe Wagner is a premier hockey instructor with over 20 years of
-        experience. He was the head coach of the 2020-2021 Mercer Chiefs Midget
-        U16 American AAA Team.
-      </p>
+    <Layout>
+      <main>
+        <p>
+          Joe Wagner is a premier hockey instructor with over 20 years of
+          experience. He was the head coach of the 2020-2021 Mercer Chiefs
+          Midget U16 American AAA Team.
+        </p>
 
-      <p>
-        Focus is placed on fundamental skills that benefit modern hockey
-        players. Above all, Joe strives to ensure his students have fun!
-      </p>
+        <p>
+          Focus is placed on fundamental skills that benefit modern hockey
+          players. Above all, Joe strives to ensure his students have fun!
+        </p>
 
-      <hr />
+        <hr />
 
-      <p>Coach Wagner is currently accepting new players.</p>
+        <p>Coach Wagner is currently accepting new players.</p>
 
-      <Link to="/lessons">View Lessons</Link>
-    </main>
+        <Link to="/lessons">View Lessons</Link>
+      </main>
+    </Layout>
   )
 }
 
