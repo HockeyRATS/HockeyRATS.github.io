@@ -1,7 +1,8 @@
 import * as React from "react"
+import type { HeadFC, PageProps } from "gatsby"
 import Layout from "../components/layout"
 
-const ContactPage = () => {
+const ContactPage: React.FC<PageProps> = () => {
   return (
     <Layout>
       <main>
@@ -33,4 +34,11 @@ const ContactPage = () => {
 
 export default ContactPage
 
-export const Head = () => <title>Contact</title>
+export const Head: HeadFC = () => {
+  return (
+    <>
+      <html lang="en-US" />
+      <title>Contact</title>
+    </>
+  )
+}
