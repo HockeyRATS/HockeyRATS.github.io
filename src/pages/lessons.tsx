@@ -1,8 +1,9 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import type { HeadFC, PageProps } from "gatsby"
 import Layout from "../components/layout"
 
-const LessonsPage = () => {
+const LessonsPage: React.FC<PageProps> = () => {
   return (
     <Layout>
       <main>
@@ -34,4 +35,11 @@ const LessonsPage = () => {
 
 export default LessonsPage
 
-export const Head = () => <title>Lessons</title>
+export const Head: HeadFC = () => {
+  return (
+    <>
+      <html lang="en-US" />
+      <title>Lessons</title>
+    </>
+  )
+}

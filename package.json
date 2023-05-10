@@ -30,10 +30,12 @@
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
+    "bootstrap": "^5.2.3",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "prettier": "^2.8.8",
+    "react-bootstrap": "^2.7.4",
     "typescript": "^5.0.4"
   }
 }
