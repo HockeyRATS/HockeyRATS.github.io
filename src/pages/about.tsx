@@ -1,7 +1,8 @@
 import * as React from "react"
+import type { HeadFC, PageProps } from "gatsby"
 import Layout from "../components/layout"
 
-const AboutPage = () => {
+const AboutPage: React.FC<PageProps> = () => {
   return (
     <Layout>
       <main>
@@ -64,4 +65,11 @@ const AboutPage = () => {
 
 export default AboutPage
 
-export const Head = () => <title>About Us</title>
+export const Head: HeadFC = () => {
+  return (
+    <>
+      <html lang="en-US" />
+      <title>About Us</title>
+    </>
+  )
+}
