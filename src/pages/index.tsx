@@ -21,9 +21,8 @@ const IndexPage: React.FC<PageProps> = () => {
       <Container className={jumbotronStyle}>
         <Row>
           <Col
-            xs={12}
             lg={4}
-            className="justify-content-center align-items-center"
+            className="d-flex justify-content-center align-items-center"
           >
             <Image
               src={Profile}
@@ -33,7 +32,7 @@ const IndexPage: React.FC<PageProps> = () => {
             />
           </Col>
 
-          <Col xs={12} lg={8}>
+          <Col lg={8}>
             <p className="lead mt-3">
               Joe Wagner is a premier hockey instructor with over 20 years of
               experience. He was the head coach of the 2020-2021 Mercer Chiefs
