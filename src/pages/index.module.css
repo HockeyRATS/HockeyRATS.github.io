@@ -26,8 +26,11 @@
 
   border-radius: 0.3rem;
 
+  /* So jumbotron has space at edges for xs screens */
+  max-width: 90%;
+
   /* Margin so jumbotron is near middle of page vertically */
-  margin-top: 10%;
+  margin-top: 12%;
 
   /* Add padding around contents in jumbotron */
   padding: 2rem 1rem;
@@ -36,8 +39,44 @@
 /* For sm screens and up */
 @media (min-width: 576px) {
   .jumbotron-style {
+    margin-top: 10%;
+
+    max-width: 85%;
+
     /* Add padding around contents in jumbotron */
     padding: 4rem 2rem;
+  }
+}
+
+/* For md screens and up */
+@media (min-width: 768px) {
+  .jumbotron-style {
+    margin-top: 8%;
+
+    max-width: 80%;
+  }
+}
+
+/* For lg screens and up */
+@media (min-width: 992px) {
+  .jumbotron-style {
+    margin-top: 6%;
+
+    max-width: 75%;
+  }
+}
+
+/* For xl screens and up */
+@media (min-width: 1200px) {
+  .jumbotron-style {
+    max-width: 70%;
+  }
+}
+
+/* For xxl screens and up */
+@media (min-width: 1400px) {
+  .jumbotron-style {
+    max-width: 65%;
   }
 }
 
