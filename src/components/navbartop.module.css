@@ -1,0 +1,52 @@
+.navbar-top {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar-toggle {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-links {
+  color: rgb(34, 152, 216);
+}
+
+/* For xs screens (less than 576px) */
+.navbar-logo {
+  max-width: 250px;
+}
+
+/* For sm screens and up */
+@media (min-width: 576px) {
+  .navbar-logo {
+    max-width: 300px;
+  }
+}
+
+/* For md screens and up */
+@media (min-width: 768px) {
+  .navbar-logo {
+    max-width: 350px;
+  }
+}
+
+/* For lg screens and up */
+@media (min-width: 992px) {
+  .navbar-logo {
+    max-width: 400px;
+  }
+}
+
+/* For xl screens and up */
+/* @media (min-width: 1200px) {
+  .navbar-logo {
+    max-width: 450px;
+  }
+} */
+
+/* For xxl screens and up */
+/* @media (min-width: 1400px) {
+  .navbar-logo {
+    max-width: 500px;
+  }
+} */
