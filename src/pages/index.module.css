@@ -1,0 +1,50 @@
+.html-style {
+  /* Background image will occupy 100% of window height */
+  height: 100%;
+}
+
+.body-style {
+  background-image: url("./../images/seong-stick-flex_medium.jpg");
+
+  /* Background color matches color of ice */
+  background-color: #dce2e0;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* Add padding so jumbotron doesn't reach bottom of page */
+  padding-bottom: 5rem;
+}
+
+.jumbotron-style {
+  background-color: rgba(16, 92, 132, 0.7);
+
+  /* White text color */
+  color: white;
+  text-align: center;
+
+  /* Margin so jumbotron is near middle of page vertically */
+  margin-top: 10%;
+
+  /* Add padding around contents in jumbotron */
+  padding: 2rem 1rem;
+}
+
+/* For sm screens and up */
+@media (min-width: 576px) {
+  .jumbotron-style {
+    /* Add padding around contents in jumbotron */
+    padding: 4rem 2rem;
+  }
+}
+
+.profile-style {
+  /* Limit height of profile picture on smaller screens */
+  max-height: 17rem;
+}
+
+.button-style {
+  background-color: #84d4f7;
+  border-color: #84d4f7;
+}
