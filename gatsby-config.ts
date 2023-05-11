@@ -27,6 +27,15 @@ const config: GatsbyConfig = {
         ],
         display: `swap`
       }
+    },
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      }
     }
   ],
 }
