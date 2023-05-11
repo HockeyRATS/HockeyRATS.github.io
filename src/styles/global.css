@@ -1,0 +1,38 @@
+/* For xs screens (less than 576px) */
+body {
+  background-color: black;
+
+  /* Padding so navbar doesn't cover content */
+  padding-top: 129.16px;
+
+  font-family: "Robot Slab", sans-serif;
+  color: white;
+}
+
+/* For sm screens and up */
+@media (min-width: 576px) {
+  body {
+    /* Padding so navbar doesn't cover content */
+    padding-top: 149.78px;
+  }
+}
+
+/* For md screens and up */
+@media (min-width: 768px) {
+  body {
+    /* Padding so navbar doesn't cover content */
+    padding-top: 170.41px;
+  }
+}
+
+/* For lg screens and up */
+@media (min-width: 992px) {
+  body {
+    /* Padding so navbar doesn't cover content */
+    padding-top: 191.05px;
+  }
+}
+
+a {
+  color: rgb(34, 152, 216);
+}
