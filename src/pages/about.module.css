@@ -1,0 +1,43 @@
+.jumbotron-style {
+  padding: 0 0;
+
+  /* Unsplash photo from Arthur Edelman */
+  background-image: url("./../images/arthur-edelman-unsplash_bueno_medium.jpg");
+
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 20rem;
+
+  margin-bottom: 2rem;
+}
+
+.credit-link-style {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 4px 6px;
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco",
+    "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial,
+    sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.2;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.credit-svg-style {
+  height: 12px;
+  width: auto;
+  position: relative;
+  vertical-align: middle;
+  top: -2px;
+  fill: white;
+}
+
+.credit-text-style {
+  display: inline-block;
+  padding: 2px 3px;
+}
