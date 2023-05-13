@@ -19,6 +19,7 @@ const AboutPage: React.FC<PageProps> = () => {
       <Container fluid className={jumbotronStyle}>
         <Container fluid className="d-flex justify-content-end px-0">
           <a
+            // Arthur's Unsplash profile doesn't exist anymore but keep link
             href="https://unsplash.com/@iamarthuredelman?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
             className={creditLinkStyle}
             target="_blank"
