@@ -26,7 +26,6 @@ const config: GatsbyConfig = {
         },
       },
     },
-    "gatsby-plugin-google-gtag",
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
