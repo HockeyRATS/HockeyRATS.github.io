@@ -3,6 +3,8 @@ import type { GatsbyConfig } from "gatsby"
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `HockeyRATS`,
+    description: `HockeyRATS is home to fanatics who live to train and play hockey`,
+    image: `/HockeyRATS_Logo.png`,
     siteUrl: `http://www.hockeyrats.com`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
@@ -15,7 +17,13 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        name: "HockeyRATS",
+        short_name: "HockeyRATS",
+        start_url: "/",
+        background_color: "#84d4f7",
+        theme_color: "#2298d8",
+        display: "standalone",
+        icon: "src/images/HockeyRATS_Icon.png",
       },
     },
     {

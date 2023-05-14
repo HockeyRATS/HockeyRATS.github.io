@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import {
   bodyStyle,
   jumbotronStyle,
@@ -123,9 +124,9 @@ export default AboutPage
 export const Head: HeadFC = () => {
   return (
     <>
+      <SEO title="About Us" pathname="/about" />
       <html lang="en-US" />
       <body className={bodyStyle} />
-      <title>About Us</title>
     </>
   )
 }
