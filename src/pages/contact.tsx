@@ -1,10 +1,12 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
+import { Script } from "gatsby"
 import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container"
 import Ratio from "react-bootstrap/Ratio"
 import Row from "react-bootstrap/Row"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import { bodyStyle, ratioParentStyle } from "./contact.module.css"
 
 const ContactPage: React.FC<PageProps> = () => {
@@ -102,9 +104,25 @@ export default ContactPage
 export const Head: HeadFC = () => {
   return (
     <>
+      <SEO title="Contact" pathname="/contact">
+        <Script id="rich_snippet" type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "url": "http://www.hockeyrats.com",
+              "name": "HockeyRATS",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-908-812-0636",
+                "contactType": "Customer Support"
+              }
+            }
+          `}
+        </Script>
+      </SEO>
       <html lang="en-US" />
       <body className={bodyStyle} />
-      <title>Contact</title>
     </>
   )
 }
