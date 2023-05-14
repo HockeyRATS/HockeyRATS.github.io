@@ -4,6 +4,7 @@ import type { HeadFC, PageProps } from "gatsby"
 import Container from "react-bootstrap/Container"
 import Ratio from "react-bootstrap/Ratio"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import {
   bodyStyle,
   calendarRatioParentStyle,
@@ -132,9 +133,9 @@ export default LessonsPage
 export const Head: HeadFC = () => {
   return (
     <>
+      <SEO title="Lessons" pathname="/lessons" />
       <html lang="en-US" />
       <body className={bodyStyle} />
-      <title>Lessons</title>
     </>
   )
 }
