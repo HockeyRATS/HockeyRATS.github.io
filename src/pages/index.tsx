@@ -7,6 +7,7 @@ import Image from "react-bootstrap/Image"
 import Row from "react-bootstrap/Row"
 import Profile from "./../images/joe-wagner-profile-800_medium.jpg"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import {
   bodyStyle,
   buttonStyle,
@@ -63,9 +64,9 @@ export default IndexPage
 export const Head: HeadFC = () => {
   return (
     <>
+      <SEO />
       <html lang="en-US" className={htmlStyle} />
       <body className={bodyStyle} />
-      <title>HockeyRATS</title>
     </>
   )
 }
