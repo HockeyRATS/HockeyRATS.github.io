@@ -15,7 +15,13 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        name: "HockeyRATS",
+        short_name: "HockeyRATS",
+        start_url: "/",
+        background_color: "#84d4f7",
+        theme_color: "#2298d8",
+        display: "standalone",
+        icon: "src/images/HockeyRATS_Icon.png",
       },
     },
     {
