@@ -3,6 +3,8 @@ import type { GatsbyConfig } from "gatsby"
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `HockeyRATS`,
+    description: `HockeyRATS is home to fanatics who live to train and play hockey`,
+    image: `/HockeyRATS_Logo.png`,
     siteUrl: `http://www.hockeyrats.com`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
