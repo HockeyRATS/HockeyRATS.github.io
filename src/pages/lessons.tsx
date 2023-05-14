@@ -33,7 +33,7 @@ const LessonsPage: React.FC<PageProps> = () => {
       </Container>
 
       {/* Lessons Information */}
-      <Container className="my-4">
+      <Container className="mt-4">
         <h1 className="display-4 text-center mb-5">Lessons</h1>
 
         <p className="pb-3">
@@ -110,7 +110,7 @@ const LessonsPage: React.FC<PageProps> = () => {
           </Ratio>
         </Container>
 
-        <Container className="d-flex justify-content-center mb-5">
+        <Container className="d-flex justify-content-center">
           <Ratio aspectRatio="16x9">
             <iframe
               src="https://www.youtube-nocookie.com/embed/l5PLL66Pw9s"
