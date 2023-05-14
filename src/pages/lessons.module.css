@@ -1,5 +1,6 @@
 .body-style {
   padding-top: 0;
+  padding-bottom: 6rem;
 }
 
 .jumbotron-style {
@@ -13,74 +14,48 @@
   height: 33rem;
 }
 
-.video-style {
+.jumbotron-video-style {
   max-width: 100%;
 
   object-fit: cover;
 }
 
 /* For xs screens (less than 576px) */
-.ratio-parent-style {
+.calendar-ratio-parent-style {
   width: 400px;
   height: 300px;
-}
-
-.calendar-style {
-  width: 400px;
-  height: 300px;
-
-  border: none;
-
-  object-fit: cover;
 }
 
 /* For md screens and up */
 @media (min-width: 768px) {
-  .ratio-parent-style {
+  .calendar-ratio-parent-style {
     width: 600px;
     height: 450px;
-  }
-
-  .calendar-style {
-    width: 600px;
-    height: 450px;
-
-    border: none;
-
-    object-fit: cover;
   }
 }
 
 /* For lg screens and up */
 @media (min-width: 992px) {
-  .ratio-parent-style {
+  .calendar-ratio-parent-style {
     width: 800px;
     height: 600px;
   }
 
-  .calendar-style {
+  .video-ratio-parent-style {
     width: 800px;
-    height: 600px;
-
-    border: none;
-
-    object-fit: cover;
+    height: 450px;
   }
 }
 
 /* For xxl screens and up */
 @media (min-width: 1400px) {
-  .ratio-parent-style {
+  .calendar-ratio-parent-style {
     width: 1200px;
-    height: 900px;
+    height: 675px;
   }
 
-  .calendar-style {
+  .video-ratio-parent-style {
     width: 1200px;
-    height: 900px;
-
-    border: none;
-
-    object-fit: cover;
+    height: 675px;
   }
 }

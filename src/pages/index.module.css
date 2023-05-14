@@ -14,7 +14,7 @@
   background-repeat: no-repeat;
 
   /* Add padding so jumbotron doesn't reach bottom of page */
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
 }
 
 .jumbotron-style {
@@ -69,6 +69,8 @@
 /* For xl screens and up */
 @media (min-width: 1200px) {
   .jumbotron-style {
+    margin-top: 4%;
+
     max-width: 70%;
   }
 }
@@ -76,6 +78,8 @@
 /* For xxl screens and up */
 @media (min-width: 1400px) {
   .jumbotron-style {
+    margin-top: 3%;
+
     max-width: 65%;
   }
 }

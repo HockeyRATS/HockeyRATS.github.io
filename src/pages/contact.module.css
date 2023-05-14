@@ -1,0 +1,33 @@
+.body-style {
+  padding-bottom: 6rem;
+}
+
+/* For xs screens (less than 576px) */
+.ratio-parent-style {
+  width: 400px;
+  height: 300px;
+}
+
+/* For md screens and up */
+@media (min-width: 768px) {
+  .ratio-parent-style {
+    width: 600px;
+    height: 450px;
+  }
+}
+
+/* For lg screens and up */
+@media (min-width: 992px) {
+  .ratio-parent-style {
+    width: 800px;
+    height: 600px;
+  }
+}
+
+/* For xxl screens and up */
+@media (min-width: 1400px) {
+  .ratio-parent-style {
+    width: 1200px;
+    height: 675px;
+  }
+}

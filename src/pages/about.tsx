@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Layout from "../components/layout"
 import {
+  bodyStyle,
   jumbotronStyle,
   creditLinkStyle,
   creditSvgStyle,
@@ -44,9 +45,9 @@ const AboutPage: React.FC<PageProps> = () => {
       <Container>
         <h1 className="display-4 text-center pt-2 mb-5">About Us</h1>
 
-        <Row className="align-items-start mb-5">
+        <Row className="align-items-start">
           {/* Image of Coach Wagner */}
-          <Col lg="6" className="mb-4">
+          <Col lg="6">
             <StaticImage
               alt="Coach Wagner, chief of HockeyRATS"
               src="../images/joe-wagner-about-winter-3x4_medium.jpg"
@@ -56,7 +57,7 @@ const AboutPage: React.FC<PageProps> = () => {
           </Col>
 
           {/* About page text */}
-          <Col lg="6" className="my-4">
+          <Col lg="6" className="mt-4">
             <blockquote className="blockquote text-center pb-2">
               <p>
                 <strong>Hockey rat</strong>, <em>noun</em>
@@ -123,6 +124,7 @@ export const Head: HeadFC = () => {
   return (
     <>
       <html lang="en-US" />
+      <body className={bodyStyle} />
       <title>About Us</title>
     </>
   )
