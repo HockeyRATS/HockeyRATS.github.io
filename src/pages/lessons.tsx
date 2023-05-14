@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import type { HeadFC, PageProps } from "gatsby"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 import Container from "react-bootstrap/Container"
 import Ratio from "react-bootstrap/Ratio"
 import Layout from "../components/layout"
@@ -44,13 +45,13 @@ const LessonsPage: React.FC<PageProps> = () => {
 
         <p className="pb-3">
           Lessons are held at{" "}
-          <a
+          <OutboundLink
             href="https://ice-land.com/"
             target="_blank"
             rel="noreferrer noopener"
           >
             Ice Land Rink
-          </a>{" "}
+          </OutboundLink>{" "}
           in Hamilton Township, NJ. Please <Link to="/contact">contact me</Link>{" "}
           regarding availability or if lessons at other facilities are desired.
         </p>
