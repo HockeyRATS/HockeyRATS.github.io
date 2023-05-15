@@ -89,16 +89,11 @@ dist
 .cache/
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
 # https://nextjs.org/blog/next-9-1#public-directory-support
-public/~partytown
-public/icons
-public/page-data
-public/static/**/*.webp
-public/static/**/*.svg
-public/static/*.jpg
-public/static/*.mp4
-public/static/*.svg
-public/favicon*.png
-public/manifest.webmanifest
+public/*
+!public/static
+public/static/*
+!public/static/CNAME
+!public/static/HockeyRATS_Logo.png
 src/gatsby-types.d.ts
 
 # vuepress build output
