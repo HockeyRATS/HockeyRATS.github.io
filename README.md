@@ -2,13 +2,14 @@
 
 ![HockeyRATS Logo](/src/images/hockeyrats-logo-cropped.svg)
 
-[HockeyRATS](http://www.hockeyrats.com) is the home of fanatics who live to
-train and play hockey and pioneer of the R.A.T.S. training system.
+The home of fanatics who live to train and play hockey. Pioneer of the R.A.T.S.
+training system.
 
-This repository contains the third iteration of the HockeyRATS website hosted on
-GitHub Pages and developed with TypeScript, a strongly typed language built on
-JavaScript and Gatsby, a React-based open source static site framework.
-Bootstrap v5 has been integrated for responsive and mobile-friendly styling without jQuery.
+This repository contains the third iteration of the
+[HockeyRATS website](http://www.hockeyrats.com) hosted on GitHub Pages. It is
+developed with TypeScript, a strongly typed language built on JavaScript and
+Gatsby, a React-based open source static site framework. Bootstrap v5 is
+integrated for responsive and mobile-friendly styling without jQuery.
 Prettier and ESLint provide code formatting and static analysis respectively.
 Summaries of previous site versions can be found in the
 [Prior Iterations](#prior-iterations) section.
@@ -32,6 +33,7 @@ $ git clone https://github.com/HockeyRATS/HockeyRATS.github.io.git
 Install the Node.js packages with
 
 ```bash
+$ cd HockeyRATS.github.io
 $ npm install
 ```
 
