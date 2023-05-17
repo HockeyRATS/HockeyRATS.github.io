@@ -1,49 +1,99 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal TypeScript Starter
-</h1>
+# HockeyRATS
+
+![HockeyRATS Logo](/src/images/hockeyrats-logo-cropped.svg)
+
+The home of fanatics who live to train and play hockey. Pioneer of the R.A.T.S.
+training system.
+
+This repository contains the third iteration of the
+[HockeyRATS website](http://www.hockeyrats.com) hosted on GitHub Pages. It is
+developed with TypeScript, a strongly typed language built on JavaScript and
+Gatsby, a React-based open source static site framework. Bootstrap v5 is
+integrated for responsive and mobile-friendly styling without jQuery.
+Prettier and ESLint provide code formatting and static analysis respectively.
+Summaries of previous site versions can be found in the
+[Prior Iterations](#prior-iterations) section.
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+### Prerequisites for Development
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+- Node.js (v18 or newer)
+- Git
+- Gatsby command line interface (CLI) (v5 or newer)
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
-    ```
+### Installation
 
-2.  **Start developing.**
+First, clone the repo with
 
-    Navigate into your new site’s directory and start it up.
+```bash
+$ git clone https://github.com/HockeyRATS/HockeyRATS.github.io.git
+```
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Install the Node.js packages with
 
-3.  **Open the code and start customizing!**
+```bash
+$ cd HockeyRATS.github.io
+$ npm install
+```
 
-    Your site is now running at http://localhost:8000!
+Use the Gatsby CLI to start the development server
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+```bash
+$ gatsby develop
+```
 
-4.  **Learn more**
+Alternatively, if you were not able to install the Gatsby CLI then use
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+```bash
+$ npm run develop
+```
 
-## 🚀 Quick start (Netlify)
+Finally, open a browser to view HockeyRATS at `http://localhost:8000/`
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
+Entering `Ctrl+C` into the same terminal will stop the development server.
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+When developing, the auto-formatter can be run by using
+
+```bash
+$ npm run prettier-format
+```
+
+Likewise, static analysis can be performed through
+
+```bash
+$ npm run lint
+```
+
+### Prior Iterations
+
+#### Second Iteration
+
+- [GitHub Repo](https://github.com/jeffrylew/hockeyrats)
+- Dynamic site developed using JavaScript and Express.js, a back end web
+  application framework based on Node.js
+- Initially integrated Stripe API to accept payments for lessons
+- Stored order details in client-side
+  [sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
+- Eventually replaced payment processing system with an email reservation system
+  based on the SendGrid API (see image of sample email below)
+- Latter was triggered by a JS calendar displaying available lessons in the
+  current month
+- Deployed on Heroku free tier dyno, which sunsetted in November 2022
+- ![Sample Reservation Confirmation Email](/src/images/HockeyRATS_Reservation_Confirmation.png)
+
+#### First Iteration
+
+- Viewable at https://jeffrylew.github.io/joe_wagner-hockey/
+- [GitHub Repo](https://github.com/jeffrylew/joe_wagner-hockey)
+- Static site developed with vanilla HTML and CSS
+- Additional styling with BootStrap 4.4.1 for a responsive and mobile-friendly
+  site
+- Deployed using GitHub Pages
+
+### Questions
+
+Any questions regarding HockeyRATS can be emailed to support@hockeyrats.com
+
+Development suggestions can be requested by opening a new ticket at
+https://github.com/HockeyRATS/HockeyRATS.github.io/issues
