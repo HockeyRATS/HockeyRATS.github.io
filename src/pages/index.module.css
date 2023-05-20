@@ -87,4 +87,7 @@
 .button-style {
   background-color: #84d4f7;
   border-color: #84d4f7;
+
+  /* Button text color is black to increase contrast ratio for accessibility */
+  color: black;
 }
