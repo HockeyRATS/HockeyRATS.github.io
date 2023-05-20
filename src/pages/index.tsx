@@ -1,11 +1,10 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Button from "react-bootstrap/Button"
-import Container from "react-bootstrap/Container"
 import Col from "react-bootstrap/Col"
-import Image from "react-bootstrap/Image"
+import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
-import Profile from "./../images/joe-wagner-profile-800_medium.jpg"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import {
@@ -13,7 +12,6 @@ import {
   buttonStyle,
   htmlStyle,
   jumbotronStyle,
-  profileStyle,
 } from "./index.module.css"
 
 const IndexPage: React.FC<PageProps> = () => {
@@ -25,11 +23,13 @@ const IndexPage: React.FC<PageProps> = () => {
             lg={4}
             className="d-flex justify-content-center align-items-center"
           >
-            <Image
-              src={Profile}
+            <StaticImage
+              src="../images/joe-wagner-profile-800_medium.jpg"
               alt="Coach Joe Wagner"
-              thumbnail={true}
-              className={profileStyle}
+              placeholder="blurred"
+              width={227.625}
+              height={262.387}
+              className="img-thumbnail"
             />
           </Col>
 
