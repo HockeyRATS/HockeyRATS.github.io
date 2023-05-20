@@ -6,7 +6,7 @@ The home of fanatics who live to train and play hockey. Pioneer of the R.A.T.S.
 training system.
 
 This repository contains the third iteration of the
-[HockeyRATS website](http://www.hockeyrats.com) hosted on GitHub Pages. It is
+[HockeyRATS website](https://www.hockeyrats.com) hosted on GitHub Pages. It is
 developed with TypeScript, a strongly typed language built on JavaScript and
 Gatsby, a React-based open source static site framework. Bootstrap v5 is
 integrated for responsive and mobile-friendly styling without jQuery.

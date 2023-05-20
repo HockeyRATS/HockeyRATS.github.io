@@ -110,7 +110,7 @@ export const Head: HeadFC = () => {
             {
               "@context": "https://schema.org",
               "@type": "Organization",
-              "url": "http://www.hockeyrats.com",
+              "url": "https://www.hockeyrats.com",
               "name": "HockeyRATS",
               "contactPoint": {
                 "@type": "ContactPoint",
