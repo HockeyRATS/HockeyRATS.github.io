@@ -34,7 +34,6 @@
     "bootstrap": "^5.2.3",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^3.9.0",
     "gatsby-plugin-sharp": "^5.9.0",
     "gatsby-source-filesystem": "^5.9.0",
