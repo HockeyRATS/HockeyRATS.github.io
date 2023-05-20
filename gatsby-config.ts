@@ -34,16 +34,6 @@ const config: GatsbyConfig = {
         icon: "src/images/HockeyRATS_Icon.png",
       },
     },
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          `Roboto Slab\:400,700`,
-          `sans-serif`
-        ],
-        display: `swap`
-      }
-    },
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     {
