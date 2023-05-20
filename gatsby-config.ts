@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     title: `HockeyRATS`,
     description: `HockeyRATS is home to fanatics who live to train and play hockey`,
     image: `/HockeyRATS_Logo.png`,
-    siteUrl: `http://www.hockeyrats.com`,
+    siteUrl: `https://www.hockeyrats.com`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
