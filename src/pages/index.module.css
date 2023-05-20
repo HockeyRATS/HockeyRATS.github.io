@@ -84,11 +84,6 @@
   }
 }
 
-.profile-style {
-  /* Limit height of profile picture on smaller screens */
-  max-height: 17rem;
-}
-
 .button-style {
   background-color: #84d4f7;
   border-color: #84d4f7;
