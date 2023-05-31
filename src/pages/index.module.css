@@ -56,7 +56,10 @@
   max-width: 90%;
 
   /* Margin so jumbotron is near middle of page vertically */
-  margin-top: 22%;
+  margin-top: 10rem;
+
+  /* Add margin so jumbotron doesn't reach bottom of page */
+  margin-bottom: 4rem;
 
   /* Add padding around contents in jumbotron */
   padding: 1rem 1rem;
@@ -70,9 +73,6 @@
 
   .jumbotron-style {
     margin-top: 30%;
-
-    /* Add margin so jumbotron doesn't reach bottom of page */
-    margin-bottom: 4rem;
 
     max-width: 85%;
 
